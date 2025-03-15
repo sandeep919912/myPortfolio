@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root{
+    --font1: "Ubuntu", serif;
+    --font2:"PT Serif", serif;
+    --main-color:red;
+}
+
+.buttons button{
+    padding: 8px;
+    background-color: rgb(184, 95, 11);
+    font-family: var(--font2);
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: white;
+    &:hover{
+        background-color: darkgoldenrod;
+    }
+}
+
+.fontTyping{
+    width: 39ch;
+    overflow: hidden;
+    text-wrap: nowrap;
+    animation: typing 3s steps(30) infinite alternate-reverse;
+}
+
+.f-color{
+    color: rgb(237, 126, 23);
+}
+
+.flex{
+    display: flex;
+}
+
+.svg{
+    background-blend-mode: color-burn;
+    fill: transparent;
+}
+
+.max-width{
+    width: 90vw;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
