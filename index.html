@@ -6,6 +6,8 @@
     <title>MY Portfolio</title>
     <link rel="stylesheet" href="cssFile/style.css">
     <link rel="stylesheet" href="cssFile/utils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/Assests/2img.jpg" type="image/x-icon" style="border-radius: 50%;">
 </head>
 <body>
     <nav class="navbar">
@@ -15,10 +17,10 @@
             </div>
             <div class="right-nav">
                 <ul class="f-color">
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Contact</li>
-                    <li>Projects</li>
+                    <li class="default-color">Home</li>
+                    <a href="" class="f-color"><li>About Me</li></a>
+                    <a href="/" class="f-color"><li>Contact</li></a>
+                    <a href="projectPage.html" class="f-color"><li>Projects</li></a>
                 </ul>
             </div>
     </nav>
@@ -26,7 +28,7 @@
     <div class="container">
         <div class="childContainer">
             <div class="left-container">
-                <span class="fontTyping f-color">Hello I'm</span>
+                <span class="f-color">Hello I'm</span>
                 <h1 class="f-color">Mr. Sandeep pandit</h1>
                 <p>A professional full stack web developer and UI/UX designer</p>
                 <div class="buttons">
@@ -67,7 +69,52 @@
             
         </div>
     </div>
+
+    <section class="bottom-content">
+        <div class="bottom-container">
+            <div class="left-article">
+                <h1>Let's Talk</h1>
+                <p>Every Project start With a chat and we can chat together if we know each other and i know you want to a perfect developer who can manage your website and make it perfect , so for this let's talk </p>
+                <button id="bottom-btn">Let's Chat</button>
+            </div>
+            <div class="right-article">
+                <div>
+                    <p>Email -</p>
+                    <a href="/">sandeep@123</a>
+                </div>
+                <div>
+                    <p>Phone -</p>
+                    <a href="/">(+91) 9199124294</a>
+                </div>
+                <div>
+                    <p>Address -</p>
+                    <a href="/">Badiya , Palojori, <br>Deoghar (jharkhand)</a>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="" class="anchor"><i class="fa-brands fa-github"></i></a>
+                <a href="" class="anchor"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" class="anchor"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/sandeep-pandit-abaa9a303/" class="anchor"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
     
+    <section class="contact-form">
+        <div class="form-area">
+            <form>
+                <input type="text" placeholder="Enter Your Name" id="name-area" required>
+                <input type="email" placeholder="Drop Your Email" id="email" required>
+                <textarea name="AboutYou" id="textarea" placeholder="Write something about you"></textarea>
+                <div class="button">
+                    <input type="submit" value="submit" class="btn">
+                </div>
+            </form>
+        </div>
+        <div class="img">
+            <img src="" alt="">
+        </div>
+    </section>
 
 
     <script src="scriptFile/script.js"></script>

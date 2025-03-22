@@ -10,16 +10,17 @@
 
 .buttons button{
     padding: 8px;
-    background-color: rgb(184, 95, 11);
+    background-color: #042b31;
+    border: 1px solid #bf998f;
+    box-shadow: 0px 0px 18px -4px #173bbc;
     font-family: var(--font2);
     margin: 20px;
     border-radius: 10px;
-    border: none;
+    /* border: none; */
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    color: white;
     &:hover{
-        background-color: darkgoldenrod;
+        background-color: #040533;
     }
 }
 
@@ -31,7 +32,9 @@
 }
 
 .f-color{
-    color: rgb(237, 126, 23);
+    color:rgb(44, 126, 234);
+    text-shadow: 2px 2px 1px -4px cyan;
+
 }
 
 .flex{
@@ -51,3 +54,13 @@
     text-decoration: none;
     color: white;
 }
+
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+
+.default-color{
+    color: darkorchid;
+}
+
