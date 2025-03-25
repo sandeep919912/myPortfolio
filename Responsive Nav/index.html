@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li class="close" onclick="closeMenu()"><img src="close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></li>
+            <li class="hover">About</li>
+            <li>Home</li>
+            <li>Coding</li>
+            <li>Flex</li>
+            <li>Data</li>
+        </ul>
+
+        <ul>
+            <li>Responsive Web</li>
+            <li class="hide">About</li>
+            <li class="hide">Home</li>
+            <li class="hide">Coding</li>
+            <li class="hide">Flex</li>
+            <li class="hide">Data</li>
+            <li class="openMenu" onclick="openMenu()"><img src="menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></li>
+        </ul>
+    </nav>
+
+    <script>
+        function openMenu(){
+            const bar = document.querySelector(".sidebar");
+            bar.style.display = "flex";
+        }
+
+        function closeMenu(){
+            const bar = document.querySelector(".sidebar");
+            bar.style.display = "none";
+        };
+    </script>
+</body>
+</html>
